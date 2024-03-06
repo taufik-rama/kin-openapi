@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/taufik-rama/kin-openapi/openapi3"
 )
 
 var _ error = &RequestError{}

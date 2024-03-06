@@ -15,8 +15,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	legacyrouter "github.com/getkin/kin-openapi/routers/legacy"
+	"github.com/taufik-rama/kin-openapi/openapi3"
+	legacyrouter "github.com/taufik-rama/kin-openapi/routers/legacy"
 )
 
 type ExampleRequest struct {

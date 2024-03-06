@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/taufik-rama/kin-openapi/openapi3"
 )
 
 func TestRegisterArrayUniqueItemsChecker(t *testing.T) {
