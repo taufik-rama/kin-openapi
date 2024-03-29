@@ -613,11 +613,9 @@ func TestNewSchemaRefForValueWithSetSchemar(t *testing.T) {
 	require.NoError(t, err, "should not error when generating schema ref")
 
 	// Optional: Marshal and inspect the schemas and schemaRef if needed for further verification
-	data, err := json.MarshalIndent(schemas, "", "  ")
+	_, err = json.MarshalIndent(schemas, "", "  ")
 	require.NoError(t, err, "error marshaling schemas")
-	fmt.Printf("Schemas: %s\n", data)
 
-	data, err = json.MarshalIndent(schemaRef, "", "  ")
+	_, err = json.MarshalIndent(schemaRef, "", "  ")
 	require.NoError(t, err, "error marshaling schemaRef")
-	fmt.Printf("SchemaRef: %s\n", data)
 }
